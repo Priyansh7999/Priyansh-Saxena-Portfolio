@@ -1,0 +1,32 @@
+.container{
+    padding: 3rem 2rem;
+    position: relative;
+}
+.heading{
+    max-width: 800px;
+    margin-left: 2rem;
+}
+.heading h3{
+    font-size: 1.7rem;
+    color: var(--heading);
+    font-family: var(--headingText);
+}
+.heading h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    font-family: var(--headingText)  ;
+    font-weight: 400;
+    color: white;
+}
+.bg {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    filter: brightness(20%);
+}
+@media (max-width: 768px) {
+    .container {
+      padding: 1rem;
+    }
+  }
+  

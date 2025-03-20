@@ -1,0 +1,118 @@
+.skills {
+    overflow-x: hidden;
+    padding: 0 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    row-gap: 5em;
+}
+.skills .skills_title {
+    color: #f9f8f6;
+}
+
+.container{
+    padding: 3rem 2rem;
+    position: relative;
+    padding-top: 7rem;
+}
+.heading{
+    max-width: 800px;
+    margin-left: 2rem;
+}
+.heading h3{
+    font-size: 1.7rem;
+    color: var(--heading);
+    font-family: var(--headingText);
+}
+.heading h2 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    font-family: var(--headingText)  ;
+    font-weight: 400;
+    color: white;
+}
+.skills .skill_section {
+    display: flex;
+    align-items: center;
+}
+body.dark .skills .skill_section p, body.dark .skills .skills_title {
+    color: #f9f8f6;
+}
+.skills .skill_section .video_wrapper {
+    width: 0;
+    border-radius: 30px;
+    border: 2px solid transparent;
+    margin: 0 1em;
+    overflow: hidden;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+}
+
+.video_wrapper.video_visible {
+    width: 12rem !important;
+    border: 2px solid #F9F8F6 !important;
+    transition: width .5s ease-in-out, border .5s ease-in-out;
+}
+.skills .skill_section .video_wrapper video {
+    border-radius: 30px;
+    object-fit: cover;
+}
+.video_wrapper.video_visible video {
+    transform: scale(1);
+}
+.video_wrapper video {
+    width: 100%;
+    max-width: 12rem;
+    transform: scale(0);
+    transition: transform .5s ease-in-out, border .5s ease-in-out;
+}
+.skills .skill_section p {
+    font-size: 7rem;
+    text-wrap: nowrap;
+    letter-spacing: -.05em;
+    font-weight: 600;
+}
+.skills h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+}
+.skills .p{
+    color: white;
+}
+.skills .skill_section .video_wrapper video {
+    border-radius: 30px;
+    object-fit: cover;
+}
+.video_wrapper.video_visible video {
+    transform: scale(1);
+}
+.video_wrapper video {
+    width: 100%;
+    max-width: 12rem;
+    transform: scale(0);
+    transition: transform .5s ease-in-out, border .5s ease-in-out;
+}
+@media (max-width: 768px)  {
+    .skills {
+        margin: 4em 0;
+        row-gap: 4em;
+    }
+    .skills .skill_section p {
+        font-size: 2rem;
+    }
+    .skills .skill_section .video_wrapper video {
+        border-radius: 10px;
+    }
+    .skills .skill_section .video_wrapper.video_visible {
+        max-width: 4rem !important;
+    }
+    .skills .skill_section .video_wrapper {
+        border-radius: 10px;
+        margin: 0 .5em;
+    }
+    .skills .skill_section .video_visible {
+        border: 1px solid #F9F8F6 !important;
+    }
+}

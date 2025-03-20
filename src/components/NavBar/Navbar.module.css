@@ -1,0 +1,108 @@
+/* General Navbar Styles */
+.navbar {
+    position: fixed;
+    left: 50%;
+    top: 4%;
+    transform: translateX(-50%);
+    width: 80%;
+    backdrop-filter: blur(30px);
+    background: rgba(60, 202, 167, 0.14);
+    color: white;
+    padding: 0 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0 0 12px 12px;
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+  }
+  
+  /* Navigation Links */
+  .navLinks {
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1rem;
+    font-weight: 500;
+  }
+  
+  .navItem {
+    list-style-type: none;
+    /* transition: all 0.3s ease; */
+    padding: 0.5rem 0.8rem;
+    border-radius: 4px;
+  }
+  
+  .navItem a {
+    text-decoration: none;
+    color: white;
+  }
+  
+  .navItem:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    transform: translateY(-2px);
+  }
+  
+  /* Social Icons */
+  .icons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .icons img {
+    width: 30px;
+    background-color: white;
+    border-radius: 50%;
+  }
+  
+  /* Mobile View */
+  @media screen and (max-width: 768px) {
+    .navLinks {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 40px;
+      left: 0;
+      width: 100%;
+      background: rgba(0, 0, 0);
+      padding: 1rem 0 ;
+      text-align: center;
+      border-radius:2px 2px 50px 50px;
+      border: 1px solid rgba(119, 118, 118, 0.37);
+      border-top: none;
+    }
+  
+    .navLinks.active {
+      display: flex;
+    }
+  
+    .navItem {
+      padding: 0.9rem 1.4rem 0.9rem 0;
+      width: 100%;
+    }
+  
+    .icons {
+      display: none;
+    }
+    .hamburger {
+      display: block;
+      font-size: 1.8rem;
+      cursor: pointer;
+      color: white;
+    }
+  }
+  
+  /* Desktop View */
+  @media screen and (min-width: 769px) {
+    .hamburger {
+      display: none;
+    }
+  }
+  

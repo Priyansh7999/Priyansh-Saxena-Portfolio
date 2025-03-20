@@ -6,7 +6,7 @@
     transform: translateX(-50%);
     width: 80%;
     backdrop-filter: blur(30px);
-    background: rgba(60, 202, 167, 0.14);
+    background: rgba(40, 40, 40, 0.497);
     color: white;
     padding: 0 1.5rem;
     display: flex;

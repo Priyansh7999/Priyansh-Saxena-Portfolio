@@ -37,7 +37,7 @@ export default function HeroSection() {
                         >
                             <span className={styles.button_lg}>
                                 <span className={styles.button_sl}></span>
-                                <span className={styles.button_text}>Download Now</span>
+                                <span className={styles.button_text}>View Resume</span>
                             </span>
                         </button>
                     </a>

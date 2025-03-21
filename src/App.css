@@ -48,6 +48,45 @@
 .content {
   position: relative;
 }
+/* Profile Component CSS */
+.profile {
+  width: 100%;
+  display: flex;
+  margin-top: 5rem;
+  justify-content: space-evenly;
+  background-color: black;
+  font-family: Poppins, sans-serif;
+  padding: 2rem 0;
+  color: white;
+}
+
+.profile div {
+  display: flex;
+  gap: 8rem;
+}
+
+.profile p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 0;
+  text-align: justify;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) {
+  .profile {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .profile div {
+    gap: 3rem;
+  }
+
+  .profile p {
+    font-size: 0.8rem;
+  }
+}
 
 /* Footer */
 .footer {

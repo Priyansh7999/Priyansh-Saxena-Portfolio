@@ -21,16 +21,15 @@ export default function App() {
       <Navbar />
       <HeroSection />
       <About />
-
+      
+      <Skills />
       {/* Main Section with Background */}
       <div className='main'>
         <div className='hero-bgg-container'>
           <img className='hero-bgg' src={bg3} alt="hero-bg" />
         </div>
         <div className='content'>
-          <Skills />
           <Services />
-
           <Project />
           <Contact />
         </div>

@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from "./Services.module.css"
 import Arrow from "../../assets/Services/Arrow.mp4"
-import { Slide } from "react-awesome-reveal";
+import { Slide, Fade,Zoom } from "react-awesome-reveal";
 export default function Services() {
     return (
         <>
@@ -18,6 +18,7 @@ export default function Services() {
                     <Slide direction="left">
                         <p id='left'>Web</p>
                     </Slide>
+                    <Zoom duration={1000}>
                         <span className={`${styles.video_wrapper} ${styles.video_visible}`}>
                             <video
                                 // preload="none"
@@ -32,6 +33,7 @@ export default function Services() {
                                 />
                             </video>
                         </span>
+                    </Zoom>
                         <Slide direction="right">
                         <p id='right'>Development</p>
                         </Slide>
@@ -42,6 +44,8 @@ export default function Services() {
                         <Slide direction="left">
                             <p>App</p>
                         </Slide>
+                        <Zoom duration={1000}>
+                            
                         
                         <span className={`${styles.video_wrapper} ${styles.video_visible}`}>
                             <video
@@ -57,6 +61,7 @@ export default function Services() {
                                 />
                             </video>
                         </span>
+                        </Zoom>
                         <Slide direction="right">
                         <p>Development</p>
                         </Slide>
@@ -66,6 +71,7 @@ export default function Services() {
                         <Slide direction="left">
                             <p>Data</p>
                         </Slide>
+                        <Zoom duration={1000}>
                         <span className={`${styles.video_wrapper} ${styles.video_visible}`}>
                             <video
                                 // preload="none"
@@ -80,6 +86,7 @@ export default function Services() {
                                 />
                             </video>
                         </span>
+                        </Zoom>
                         <Slide direction="right">
                             <p>Analysis</p>
                         </Slide>
@@ -89,7 +96,7 @@ export default function Services() {
                         <Slide direction="left">
                             <p>Creative</p>
                         </Slide>
-                        
+                        <Zoom duration={1000}>
                         <span className={`${styles.video_wrapper} ${styles.video_visible}`}>
                             <video
                                 // preload="none"
@@ -104,6 +111,7 @@ export default function Services() {
                                 />
                             </video>
                         </span>
+                       </Zoom>
                         <Slide direction="right">
                         <p>Coding</p>
                         </Slide>
@@ -113,14 +121,13 @@ export default function Services() {
                         <Slide direction="left">
                             <p>Solid</p>
                         </Slide>
-                        
+                        <Zoom duration={1000}>
                         <span className={`${styles.video_wrapper} ${styles.video_visible}`}>
                             <video
                                 // preload="none"
                                 autoPlay
                                 loop
                                 playsInline
-                                poster="https://davidhaz.com/images/solid_engineering_placeholder.webp"
                             >
                                 <source
                                     src="https://davidhaz.com/videos/solid_engineering.mp4"
@@ -128,6 +135,7 @@ export default function Services() {
                                 />
                             </video>
                         </span>
+                        </Zoom>
                         <Slide direction="right">
                             <p>Engineering</p>
                         </Slide>

@@ -186,6 +186,7 @@
 .image img {
     width: 100%;
     object-fit: contain;
+    border-radius: 15px;
     height: 100%;
 }
 
@@ -200,7 +201,7 @@
     transition: opacity 0.3s ease-in-out;
 }
 .box:hover .image {
-    opacity: 0.1;
+    opacity: 0;
 }
 
 .box:hover .content {
@@ -209,7 +210,7 @@
 }
 
 .boxx:hover .image {
-    opacity: 0.1;
+    opacity: 0;
 }
 
 .boxx:hover  .content {
@@ -285,9 +286,7 @@
         width: 100%;
         height: 380px;
     }
-    .box .image {
-        opacity: 0.4;
-    }
+
     .image {
         width: 100%;
         height: 100%;
@@ -301,21 +300,10 @@
         filter: brightness(90%);
     }    
     
-    .box .content {
-        opacity: 1;
-        color: white;
-    }
-    
-    .boxx .image {
-        opacity: 0.5;
-    }
+
     img{
         object-fit: cover;
     }
-    
-    .boxx .content {
-        opacity: 1;
-        z-index: 2;
-    }
+
     
 }

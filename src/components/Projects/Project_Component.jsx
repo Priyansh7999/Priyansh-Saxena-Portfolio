@@ -19,7 +19,7 @@ export default function Project_Component({ activeField }) {
             technologies: ["React JS", "Node js", "CSS", "Firebase"],
             src: trip_planner,
             github: "https://github.com/Priyansh7999/Trip-Advisor",
-            live: "https://trip-planner-gamma-umber.vercel.app/"
+            live: "https://trip-advisor-umber.vercel.app/"
         },
         {
             name: "Weather App",

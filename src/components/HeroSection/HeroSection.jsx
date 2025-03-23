@@ -41,13 +41,14 @@ export default function HeroSection() {
                             </span>
                         </button>
                     </a>
-
+                    <a href="#contact">
                     <button id='button2' className={styles.button} type="button">
                         <span className={styles.button_lg}>
                             <span className={styles.button_sl}></span>
                             <span className={styles.button_text}><a href="#contact">HIRE ME</a></span>
                         </span>
                     </button>
+                    </a>
                 </div>
 
             </div>

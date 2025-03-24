@@ -2,17 +2,16 @@
 .container {
   display: flex;
   align-items: center;
-  gap: 3rem;
   padding: 2rem;
-  flex-wrap: wrap;
-  background-color: #000000;
+  /* flex-wrap: wrap; */
+  background-color: rgb(5, 8, 22 );
   position: relative;
   z-index: 10;
 }
 
 .content1 {
-  max-width: 650px;
-  padding-top: 5rem;
+  max-width: 800px;
+  /* padding-top: 5rem; */
 }
 
 .heading h2 {
@@ -25,21 +24,20 @@
 
 .text p {
   font-size: 1.1rem;
-  font-weight: 350;
-  line-height: 1.4;
-  margin-bottom: 1rem;
+  font-weight: 300;
   text-align: justify;
-  color: #f0e4e4;
+  color: #ffffff;
+  line-height: 1.6;
+  max-width: 700px;
 }
 
 .content2 {
   max-width: 600px;
-  width: 40%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 9rem;
 }
 .experience p{
   display: flex;
@@ -61,13 +59,10 @@
     align-items: center;
     padding: 2rem;
   }
-  .content2 img {
-    max-width: 90%;
-    object-fit: cover;
-  }
-  .content2{
-    padding-top: 0rem;
-  }
+  .content1,
+    .content2 {
+      width: 100%
+    }
 }
 
 /* Social Icons */

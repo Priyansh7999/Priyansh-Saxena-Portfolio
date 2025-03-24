@@ -1,7 +1,7 @@
 /* Skills.module.css */
 .Skills{
     display: flex;
-    background-color: #000000;
+    background-color: rgb(5, 8, 22 )
 }
   
   .content1 {
@@ -58,7 +58,7 @@
     font-size: 1.1rem;
     font-weight: 300;
     text-align: justify;
-    color: #f0e4e4;
+    color: #ffffff;
     line-height: 1.6;
     max-width: 700px;
   }

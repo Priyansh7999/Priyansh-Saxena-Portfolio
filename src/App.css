@@ -13,7 +13,7 @@
   filter: brightness(50%) blur(1px);
   position: fixed;
   z-index: -1;
-  background-color: black;
+  background-color: rgb(5, 8, 22 )
 }
 
 /* Main Section Background */
@@ -33,7 +33,7 @@
   z-index: -5; /* Ensures it's behind the main content */
 }
 .main{
-  background-color: black;
+  background-color: rgb(5, 8, 22 )
 }
 
 .hero-bgg {
@@ -52,22 +52,16 @@
 .profile {
   width: 100%;
   display: flex;
-  margin-top: 5rem;
   justify-content: space-evenly;
-  background-color: black;
+  align-items: center;
   font-family: Poppins, sans-serif;
   padding: 2rem 0;
   color: white;
-}
-
-.profile div {
-  display: flex;
-  gap: 8rem;
+  background-color: rgb(5, 8, 22 );
 }
 
 .profile p {
-  font-size: 1.2rem;
-  line-height: 1.5;
+  font-size: 1rem;
   margin: 0;
   text-align: justify;
 }
@@ -75,16 +69,17 @@
 /* Responsive design for smaller screens */
 @media (max-width: 768px) {
   .profile {
-    flex-direction: column;
-    text-align: center;
-  }
-
-  .profile div {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
     gap: 3rem;
+    font-family: Poppins, sans-serif;
+    color: white;
   }
-
   .profile p {
-    font-size: 0.8rem;
+    font-size: 0.6rem;
   }
 }
 

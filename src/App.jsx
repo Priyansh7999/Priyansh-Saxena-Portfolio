@@ -21,7 +21,6 @@ export default function App() {
       <Navbar />
       <HeroSection />
       <About />
-      
       <Skills />
       {/* Main Section with Background */}
       <div className='main'>

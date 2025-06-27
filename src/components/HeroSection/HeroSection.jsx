@@ -30,17 +30,22 @@ export default function HeroSection() {
                 <h1 id='name'>Priyansh Saxena</h1>
                 <p id='description'>Frontend Developer at heart, Software Engineer by passion—Building fun and functional digital experiences!</p>
                 <div style={{ display: "flex", gap: "30px", justifyContent: "center" }}>
-                    <a href="https://drive.google.com/file/d/1Li4ztm-4jKndU8Rw-8rOSIm7BnHb5oV6/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
-                        <button
-                            className={styles.button}
-                            type="button"
-                        >
-                            <span className={styles.button_lg}>
-                                <span className={styles.button_sl}></span>
-                                <span className={styles.button_text}>View Resume</span>
-                            </span>
-                        </button>
+                    <a
+                      href="/Priyansh Saxena _ Software Engineer.pdf"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <button
+                        className={styles.button}
+                        type="button"
+                      >
+                        <span className={styles.button_lg}>
+                          <span className={styles.button_sl}></span>
+                          <span className={styles.button_text}>View Resume</span>
+                        </span>
+                      </button>
                     </a>
+
                     <a href="#contact">
                     <button id='button2' className={styles.button} type="button">
                         <span className={styles.button_lg}>

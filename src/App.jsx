@@ -9,7 +9,7 @@ import Services from './components/Services/Services'
 import Project from './components/Projects/Project'
 import Contact from './components/Contact/Contact';
 import Navbar from './components/NavBar/Navbar';
-import Experience from './components/Experience/experience';
+import Experience from './components/Experience/Experience';
 export default function App() {
   return (
     <>

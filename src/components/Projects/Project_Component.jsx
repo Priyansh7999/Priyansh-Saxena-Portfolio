@@ -10,6 +10,9 @@ import UnrealEngine5 from "../../assets/project/UnrealEngine5.png"
 import PasswordGenerator from "../../assets/project/PasswordGenerator.png"
 import { Fade } from "react-awesome-reveal";
 import { motion } from 'motion/react';
+import Zentry from '../../assets/project/Zentry.png'
+import chatapp from '../../assets/project/chatapp.png'
+import travazo from '../../assets/project/travazo.png'
 export default function Project_Component({ activeField }) {
     const cards = [
         {
@@ -20,6 +23,33 @@ export default function Project_Component({ activeField }) {
             src: trip_planner,
             github: "https://github.com/Priyansh7999/Trip-Advisor",
             live: "https://trip-advisor-anzz.vercel.app/"
+        },
+        {
+            name : 'Zentry Frontend Project',
+            class :'web',
+            description:'A visually captivating website inspired by Zentry, featuring advanced scroll-triggered animations, geometric transitions, and engaging video storytelling. This project demonstrates modern web development techniques with a focus on delivering a luxurious, award-winning user experience.',
+            technologies: ["React JS", "Tailwind CSS", 'GSAP'],
+            src: Zentry,
+            github: 'https://github.com/Priyansh7999/Zentry-Website-Frontend-Project',
+            live : 'https://zentry-website-frontend-project.vercel.app/'
+        },
+        {
+            name : 'Travaza-Travel-App',
+            class : 'app',
+            description:'A user-friendly travel app built with React Native, React Navigation, and Expo, offering a seamless and enjoyable experience for users to discover and book travel destinations.',
+            technologies: ["Expo", "CSS","Node.js", "Express.js", 'Supabase', 'Prisma'],
+            src:travazo,
+            github:"https://github.com/Priyansh7999/Travaza-Travel-App",
+            live:"https://github.com/Priyansh7999/Travaza-Travel-App"
+        },
+        {
+            name: 'Chatter Chat Application',
+            class: "app",
+            description:"A modern, real-time chat application built with React Native and Firebase, featuring seamless communication and social connectivity.",
+            technologies :["React Native", "Expo", "CSS" , "Firebase", "Firestore"],
+            src: chatapp,
+            github:"https://github.com/Priyansh7999/Chat-Application-React-Native",
+            live:"https://github.com/Priyansh7999/Chat-Application-React-Native"
         },
         {
             name: "Weather App",

@@ -9,6 +9,7 @@ import Services from './components/Services/Services'
 import Project from './components/Projects/Project'
 import Contact from './components/Contact/Contact';
 import Navbar from './components/NavBar/Navbar';
+import Experience from './components/Experience/experience';
 export default function App() {
   return (
     <>
@@ -28,6 +29,7 @@ export default function App() {
           <img className='hero-bgg' src={bg3} alt="hero-bg" />
         </div>
         <div className='content'>
+          <Experience />
           <Services />
           <Project />
           <Contact />

@@ -29,6 +29,8 @@ export default function Navbar() { const [isOpen, setIsOpen] = useState(false);
       {/* Center Navigation Links */}
       <ul className={`${styles.navLinks} ${isOpen ? styles.active : ""}`}>
         <li className={styles.navItem}><a href="#about">About</a></li>
+        <li className={styles.navItem}><a href="#skills">Skills</a></li>
+        <li className={styles.navItem}><a href="#experience">Experience</a></li>
         <li className={styles.navItem}><a href="#services">Services</a></li>
         <li className={styles.navItem}><a href="#projects">Projects</a></li>
         <li className={styles.navItem}><a href="#contact">Contact</a></li>

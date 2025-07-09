@@ -22,10 +22,11 @@ export default function Skills() {
             <div className={styles.content2}>
                 <Slide direction="right" duration={500}  >
                     <h1>Other Then Development</h1>
+                    </Slide>
                         <p>I'm also deeply passionate about Data Structures and Algorithms (DSA)
                             constantly refining my problem-solving skills to optimize performance and efficiency. </p>
                         <h2>Explore My Projects and Code Contributions</h2>
-                    </Slide>
+                    
                 <Slide direction="left" cascade damping={0.2} duration={500}  >
                     <div className={styles.icons}>
                         <a href="https://github.com/Priyansh7999" target="_blank" rel="noopener noreferrer">

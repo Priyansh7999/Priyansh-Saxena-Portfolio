@@ -31,7 +31,7 @@ export default function HeroSection() {
                 <p id='description'>Frontend Developer at heart, Software Engineer by passion—Building fun and functional digital experiences!</p>
                 <div style={{ display: "flex", gap: "30px", justifyContent: "center" }}>
                     <a
-                      href="/Priyansh Saxena _ Software Engineer.pdf"
+                      href="/Priyansh Saxena _ FullStack.pdf"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
